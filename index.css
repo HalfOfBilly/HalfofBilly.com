@@ -1,0 +1,84 @@
+body {
+	background-color: #2f3030;
+}
+
+h1 {
+	border-top: 4px solid #d1d1d1;
+	font-family: verdana;
+	color: #d1d1d1;
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+	color: #dedfe0;
+	text-align: left;
+}
+
+a {
+	color: #28adc1;
+}
+
+.banner {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subbanner {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.about_me {
+	font-family: verdana;
+	font-size: 140%;
+	color: #dedfe0;
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+	word-wrap: break-word;
+	width: 60%; 
+}
+
+.linkicons {
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.comingsoon {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom {
+	font-family: verdana;
+	font-size: 100%;
+	color: #dedfe0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.upto {
+	font-family: verdana;
+	font-size: 100%;
+	width: 30%;
+	color: #dedfe0;
+	display: inline-block;
+	vertical-align: middle;
+	word-wrap: break-word;
+}

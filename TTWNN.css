@@ -1,0 +1,98 @@
+body {
+	background-color: #2f3030;
+}
+
+h1 {
+	font-family: verdana;
+	font-size: 160%;
+	border-top: 4px solid #d1d1d1;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #dedfe0;
+}
+
+a {
+	color: #28adc1;
+}
+
+.intro{
+	width: 80%;
+	font-family: verdana;
+	font-size: 100%;
+	color: #dedfe0;
+	text-align: centre;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.expl {
+	width: 20%;
+	font-family: verdana;
+	font-size: 100%;
+	color: #dedfe0;
+	display: inline-block;
+	word-wrap: break-word;
+	vertical-align: middle;
+	text-align; middle;
+}
+
+.note{
+	font-family; verdana;
+	font-size: 60%;
+	color: #dedfe0;
+	text-align: left;
+}
+
+.banner {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subbanner {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.asset {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.comingsoon {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dis {
+	font-family: verdana;
+	font-size: 100%;
+	color: #dedfe0;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dlink {
+	font-family: verdana;
+	font-size: 120%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.eee {
+	font-family: verdana;
+}
