@@ -3,33 +3,50 @@
 	<head>
 		<title> HalfOfBilly Official! </title>
 		<link rel="stylesheet" href="index.css">
+		<script>
+			async function Splash() {
+			var url = "https://halfofbilly.com/SplashText.txt";
+			var text = await fetch(url); 
+			var SplashText = (await text.text()).split("\n")
+			console.log(SplashText);
+		  var Textt = SplashText[Math.floor(Math.random() * SplashText.length)];
+		  console.log(Textt);
+		  document.getElementById("myText").innerHTML = Textt;
+		  }
+	  </script>
 	</head>
-	<body>
-	<link rel="shortcut icon" href="Site-assets//Profile.ico">
-
+	<body onload="Splash()">
+	<link rel="shortcut icon" href="Site-assets//Profile.ico">	
 	<img src="Site-assets//Banner.png" alt="Banner" class="banner">
 	<img src="Site-assets//Official site.png" alt="SubBanner" class="subbanner">
-
-	<div class="about_me">Welcome! I'm a guy who wears a top hat!</div>
-	<div class="about_me">In my spare time, I like to make animations and random drawings. </div>
-	<p></p>
-	<div class="about_me">One day I'd like to get into game development, but first I've gotta get some damn motivation! </div>
-	<p></p>
-	<div class="about_me">I plan to do some more with this website in the future- perhaps use it as a portfolio or something. In the meantime, I'm just gonna mess around with it :) </div>
-	<img src="Site-assets//Profile.png" alt="profile" class="profile">
+	<div class="minitext"> <span id="myText"> </span> </div>
 	
-	<a href="https://www.youtube.com/@halfofbilly" target="_blank">
-		<img src="Site-assets//YouTube.png" alt="YouTube link", class="linkicons">
-	</a>
+	<div>
+		<div class="about_me">
+			<p>Welcome! I'm a guy who wears a top hat!</p>
+			<p>In my spare time, I like to make animations and random drawings. </p>
+			<p></p>
+			<p>One day I'd like to get into game development, but first I've gotta get some damn motivation! </p>
+			<p></p>
+			<p>I plan to do some more with this website in the future- perhaps use it as a portfolio or something. In the meantime, I'm just gonna mess around with it :) </p>
+		</div>
+		<img src="Site-assets//Profile.png" alt="profile" class="profile">
+	</div>
 	
-	<a href="https://discordapp.com/users/895546326840913950" target="_blank">
-		<img src="Site-assets//Discord.png" alt="Discord link", class="linkicons">
-	</a>
+	<h1></h1>
 	
-	<a href="mailto:halfofbilly@gmail.com" target="_blank">
-		<img src="Site-assets//Email.png" alt="Email link", class="linkicons">
-	</a>
-
+	<div class="Center">
+		<a href="https://www.youtube.com/@halfofbilly" target="_blank">
+			<img src="Site-assets//YouTube.png" alt="YouTube link" class="linkicons">
+		</a>		
+		<a href="https://discordapp.com/users/895546326840913950" target="_blank">
+			<img src="Site-assets//Discord.png" alt="Discord link" class="linkicons">
+		</a>	
+		<a href="mailto:halfofbilly@gmail.com" target="_blank">
+			<img src="Site-assets//Email.png" alt="Email link" class="linkicons">
+		</a>
+	</div>
+	
 	<h1> What I'm up to: </h1>
 	<p><p>
 	<a href="https://halfofbilly.com/TTWNN.html" target="_blank">
