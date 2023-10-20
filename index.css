@@ -34,21 +34,33 @@ a {
 	margin-right: auto;
 }
 
+.minitext {
+	font-family: verdana;
+	font-size: 90%;
+	color: #dedfe0;
+	text-align: center;
+}
+
 .profile {
-	width: 30%;
+	width: 25%;
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 .about_me {
 	font-family: verdana;
-	font-size: 140%;
+	font-size: 100%;
 	color: #dedfe0;
 	text-align: left;
 	display: inline-block;
 	vertical-align: middle;
 	word-wrap: break-word;
-	width: 60%; 
+	width: 50%; 
+}
+
+.Center {
+	text-align: center;
+	display: inline-block;
 }
 
 .linkicons {
