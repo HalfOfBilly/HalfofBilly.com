@@ -13,4 +13,9 @@ Give me a drink, bartender
 *Sneeze*
 Still figuring out what div does...
 <overflow exception>
-Just leant you can inject html in a <div> string </div>
+Just leant you can inject html in a <b> string </b></div>
+Allergic to cookies
+<div style="color:Green;">Shrektastic!</div>
+What DID the fox say?
+Your **favourite** mediocre animator!
+Randomly Generated!
