@@ -34,6 +34,13 @@ a {
 	margin-right: auto;
 }
 
+.subsubbanner {
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .minitext {
 	font-family: verdana;
 	font-size: 90%;
@@ -81,15 +88,23 @@ a {
 	font-family: verdana;
 	font-size: 100%;
 	color: #dedfe0;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 }
 
 .upto {
 	font-family: verdana;
 	font-size: 100%;
-	width: 30%;
+	width: 20%;
+	color: #dedfe0;
+	display: inline-block;
+	vertical-align: middle;
+	word-wrap: break-word;
+}
+
+.folio {
+	font-family: verdana;
+	font-size: 60%;
+	width: 10%;
 	color: #dedfe0;
 	display: inline-block;
 	vertical-align: middle;
