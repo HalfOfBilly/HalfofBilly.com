@@ -29,15 +29,28 @@ a {
 }
 
 .expl {
-	width: 20%;
+	width: 60%;
 	font-family: verdana;
-	font-size: 100%;
-	color: #dedfe0;
-	display: inline-block;
 	word-wrap: break-word;
-	vertical-align: middle;
-	text-align; middle;
+	font-size: 80%;
+	color: #dedfe0;
+	text-align: center;
 }
+
+.asset {
+	width: 75%;
+}
+
+.assethi {
+	width: 37%;
+}
+
+.group {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -25px;
+}
+
 
 .note{
 	font-family; verdana;
@@ -59,13 +72,6 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.asset {
-	width: 20%;
-	display: inline-block;
-	vertical-align: top;
-}
-
 
 .comingsoon {
 	width: 40%;
