@@ -1,28 +1,9 @@
-<!DOCTYPE html>
-    <html>
-        <body>
-        <h1>Comment test </h1>
-        <form id="myForm">
-        Username: <input id="userName" type="text" name="fname">
-        <br><br>
-        Email: <input id="userEmail" type="text" name="email">
-        <br><br>
-        <textarea id ="userComment" rows="4" cols="50" name="comment"> Enter comment here...</textarea>
-        <br><br>
-        <input type="button" onclick="myFunction()" value="Submit">
-        </form>
-        <h5>Comments:</h5>
-        <p id="data"></p>
-        <script>
-        function myFunction(){
-        let data = "";  let name = document.getElementById("userName").value
-        let email = document.getElementById("userEmail").value
-        let comment = document.getElementById("userComment").value
-         
-        data = "Username : "+name+"<br/>Email : "+email+ "<br/>"+comment
-         
-        document.getElementById("data").innerHTML = data  // display data to paragraph
-        }
-        </script>
-    </body>
-</html>
+<div class="commentbox"></div>
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script>commentBox('5764174919499776-proj')</script>
+
+<!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24L6ulYBz8ifQ7yK92o9Jm4%2F"+"&opts=16798&num=10&ts=1698303079106");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
