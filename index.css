@@ -1,5 +1,5 @@
 body {
-	background-color: #2f3030;
+	background-image: url("Site-assets/BG.png");
 }
 
 h1 {
@@ -14,6 +14,8 @@ p {
 	font-size: 20px;
 	color: #dedfe0;
 	text-align: left;
+	word-wrap: break-word;
+	width: 80%; 
 }
 
 a {
@@ -28,14 +30,35 @@ a {
 }
 
 .subbanner {
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .subsubbanner {
-	width: 30%;
+	width: 70%;
+	display: block;
+}
+
+.center {
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.farcenter {
+	text-align: right;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.title {
+	width: 50%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -48,10 +71,12 @@ a {
 	text-align: center;
 }
 
-.profile {
-	width: 25%;
+.tv {
 	display: inline-block;
-	vertical-align: middle;
+	width: 32%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index:100;
 }
 
 .about_me {
@@ -65,8 +90,15 @@ a {
 	width: 50%; 
 }
 
-.Center {
+.center {
 	display: inline-block;
+	width: 32%;
+}
+
+.farcenter {
+	display: inline-block;
+	text-align: right;
+	width: 32%;	
 }
 
 .linkicons {
@@ -77,12 +109,6 @@ a {
 	margin-right: auto;
 }
 
-.comingsoon {
-	width: 40%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 .bottom {
 	font-family: verdana;
@@ -91,22 +117,3 @@ a {
 	text-align: center;
 }
 
-.upto {
-	font-family: verdana;
-	font-size: 100%;
-	width: 20%;
-	color: #dedfe0;
-	display: inline-block;
-	vertical-align: middle;
-	word-wrap: break-word;
-}
-
-.folio {
-	font-family: verdana;
-	font-size: 60%;
-	width: 10%;
-	color: #dedfe0;
-	display: inline-block;
-	vertical-align: middle;
-	word-wrap: break-word;
-}
