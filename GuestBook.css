@@ -70,3 +70,17 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 }
+
+h1 {
+	border-top: 4px solid #d1d1d1;
+	font-family: verdana;
+	color: #d1d1d1;
+	text-align: center;
+}
+
+.bottom {
+	font-family: verdana;
+	font-size: 100%;
+	color: #dedfe0;
+	text-align: center;
+}
