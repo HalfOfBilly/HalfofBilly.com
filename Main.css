@@ -11,7 +11,7 @@ h1 {
 
 p {
 	font-family: verdana;
-	font-size: 20px;
+	font-size: 120%;
 	color: #dedfe0;
 	text-align: left;
 }
@@ -129,7 +129,3 @@ a {
 	vertical-align: middle;
 	word-wrap: break-word;
 }
-
-commentBox('5764174919499776-proj', {
-    textColor: '#fff'
-});
