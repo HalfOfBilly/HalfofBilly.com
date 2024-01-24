@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> HalfOfBilly Official! </title>
+		<link rel="stylesheet" href="Main.css">
+		<script>
+			async function Splash() {
+			var url = "https://halfofbilly.com/SplashText.txt";
+			var text = await fetch(url); 
+			var SplashText = (await text.text()).split("\n")
+			console.log(SplashText);
+		  var Textt = SplashText[Math.floor(Math.random() * SplashText.length)];
+		  console.log(Textt);
+		  document.getElementById("myText").innerHTML = Textt; 
+		  }
+	  </script>
+	  <img src="Site-assets//Banner.png" alt="Banner" class="banner">
+	  <div>
+	  	<a href="https://halfofbilly.com/Main.html">
+				<img src="Site-assets/Nav_Home.gif" alt="Navigation button: home page", style="width:10%;"> 
+			</a>
+			<a href="https://halfofbilly.com/Videos.html">
+				<img src="Site-assets/Nav_Animations.gif" alt="Navigation button: animations", style="width:21%;"> 
+			</a>
+			<a href="https://halfofbilly.com/GuestBook.html">
+				<img src="Site-assets/Nav_Guestbook.gif" alt="Navigation button: guestbook", style="width:21%;margin-left:-20px;"> 
+			</a> 
+	  </div>
+	  <h1></h1>
+	</head>
+	<body onload="Splash()">
+	<link rel="shortcut icon" href="Site-assets//Profile.ico">
+	<img src="Site-assets//Title.gif" alt="SubBanner" class="subbanner">
+	<div class="minitext"> <span id="myText"> </span> </div>
+	
+	<div>
+		<div class="about_me">
+			<p>Welcome! I'm a guy who wears a top hat!</p>
+			<p>In my spare time, I like to make animations and random drawings. </p>
+			<p></p>
+			<p>One day I'd like to get into game development, but first I've gotta get some damn motivation! </p>
+			<p></p>
+			<p>I plan to do some more with this website in the future- perhaps use it as a portfolio or something. In the meantime, I'm just gonna mess around with it :) </p>
+		</div>
+		<img src="Site-assets//Profile.png" alt="profile" class="profile">
+	</div>
+	
+
+	<div>
+		<h1></h1>
+		<img src="Site-assets//Stuff.gif" alt="Stuff", class="subsubbanner"> 
+		<p><p>
+		<a href="https://halfofbilly.com/TTWNN.html" target="_blank">
+			<img src="Site-assets//TTWN/title.png" alt="Town with no name", class="upto"> 
+		</a> 
+	</div>
+
+	<div> 
+		<h1></h1>
+		<div class="center">
+			<img src="Site-assets//Mail2.gif" alt="coming soon", class="banicon">
+			<img src="Site-assets//Message.gif" alt="Stuff", class="subsubbannerr">
+			<img src="Site-assets//Mail2.gif" alt="coming soon", class="banicon">
+		</div>
+		<p></p>
+		<div class="Center">
+			<a href="https://www.youtube.com/@halfofbilly" target="_blank">
+				<img src="Site-assets//YouTube.gif" alt="YouTube link" class="linkicons">
+			</a>		
+			<a href="https://discordapp.com/users/895546326840913950" target="_blank">
+				<img src="Site-assets//Discord.gif" alt="Discord link" class="linkicons">
+			</a>	
+			<a href="mailto:halfofbilly@gmail.com" target="_blank">
+				<img src="Site-assets//Email.gif" alt="Email link" class="linkicons">
+			</a>
+		</div>
+	</div>
+	<h1></h1>
+	<div class="center">
+		<img src="Site-assets//Megaphone.gif" alt="coming soon", class="banicon">
+		<img src="Site-assets//Update.gif" alt="coming soon", class="subsubbannerr">
+		<img src="Site-assets//Megaphone.gif" alt="coming soon", class="banicon">
+	</div>
+	<p> <i> 5/12/23 </i></p>
+	<p> Hey I got the things done! Soon I'll start posting proper updates. </p>
+	<p></p>
+	
+	<h1></h1>
+	<a href="https://halfofbilly.com/GuestBook.html">
+		<div class="center">
+			<img src="Site-assets//Scroll.gif" alt="coming soon", class="banicon">
+			<img src="Site-assets//GuestBook.gif" alt="coming soon", class="subsubbannerr">
+			<img src="Site-assets//Scroll.gif" alt="coming soon", class="banicon">
+		</div>
+	</a>
+	<h1></h1>
+	<img src="Site-assets//Coming soon.gif" alt="coming soon", class="comingsoon">
+	<p></p>
+	
+	<h1></h1>
+	<div class="bottom"> This site is open sourced and hosted on GitHub. View the source 
+		<a href="https://github.com/HalfOfBilly/HalfofBilly", target="_blank"> here</a>. 
+	</div>
+	<div class="bottom"> Domain purchased with NameCheap. </div>
+	</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+	background-color: #2f3030;
+}
+
+h1 {
+	border-top: 4px solid #d1d1d1;
+	font-family: verdana;
+	color: #d1d1d1;
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 120%;
+	color: #dedfe0;
+	text-align: middle;
+}
+
+.title {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Center {
+	text-align: center;
+	display: inline-block;
+}
+
+.Brief {
+	display: inline-block;
+	width: 35%;
+}
+
+a {
+	color: #1ccdff;
+	font-size: 100%;
+	font-family: verdana;
+}
+
+a.visited{
+	color: #1ccdff;
+}
+
+.banner {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Truck {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	
+.Draft {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
