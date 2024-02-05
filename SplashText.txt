@@ -1,5 +1,5 @@
 Putting the "hat" in "What are you doing in my house?"
-2023 No Rights Reserved
+2024 No Rights Reserved
 Held together with Sticky Tape
 Ad free! (because nobody would pay to put ads here)
 Welcome to the information highway!
@@ -12,10 +12,13 @@ Give me a drink, bartender
 #1 Dollarmites fan!
 *Sneeze*
 Still figuring out what div does...
-<overflow exception>
+"<overflow exception>"
 Just leant you can inject html in a <b> string </b></div>
 Allergic to cookies
-<div style="color:Green;">Shrektastic!</div>
+<div style="color:Lime;">Shrektastic!</div>
 What DID the fox say?
 Your **favourite** mediocre animator!
 Randomly Generated!
+The real website was the friends we made along the way
+Darn, just one more page and I would have finished this site!
+Proceed
