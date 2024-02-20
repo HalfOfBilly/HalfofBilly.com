@@ -1,0 +1,63 @@
+body {
+	background: #f47e70;
+}
+
+p {
+	font-family: verdana;
+	font-size: 160%;
+	color: #ffedd1;
+	text-align: center;
+}
+
+a {
+	color: #ffedd1;
+}
+
+.banner {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gap {
+	margin: 8%;
+}
+
+.gaptwo {
+	margin: 4%;
+}
+
+.center {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.minitext {
+	font-family: verdana;
+	font-size: 200%;
+	color: #ffedd1;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.Center {
+	display: inline-block;
+}
+
+.landscape {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottomtext {
+	font-family: verdana;
+	font-size: 140%;
+	color: #f47e70;
+	text-align: center;
+}
