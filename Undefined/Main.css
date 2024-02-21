@@ -4,7 +4,7 @@ body {
 
 p {
 	font-family: verdana;
-	font-size: 160%;
+	font-size: 120%;
 	color: #ffedd1;
 	text-align: center;
 }
@@ -21,11 +21,11 @@ a {
 }
 
 .gap {
-	margin: 8%;
+	margin: 4%;
 }
 
 .gaptwo {
-	margin: 4%;
+	margin: 2%;
 }
 
 .center {
@@ -37,7 +37,7 @@ a {
 
 .minitext {
 	font-family: verdana;
-	font-size: 200%;
+	font-size: 150%;
 	color: #ffedd1;
 	margin-left: auto;
 	margin-right: auto;
@@ -57,26 +57,28 @@ a {
 
 .bottomtext {
 	font-family: verdana;
-	font-size: 140%;
+	font-size: 100%;
 	color: #f47e70;
 	text-align: center;
 }
 
 .iconA {
-	width:20%;
+	width:15%;
 	margin-left:0px;
 }
 
 .iconB {
-	width:30%;
+	width:20%;
+	margin-left:25px;
 }
 
 .iconC {
-	width: 20%;
+	width: 15%;
+	margin-left:25px;
 }
 
 .iconD {
-	width: 60%;
+	width: 45%;
 }
 
 @media all and (min-width:0px) and (max-width: 1000px) {
@@ -89,6 +91,14 @@ p {
 
 img {
 	
+}
+
+.gap {
+	margin: 8%;
+}
+
+.gaptwo {
+	margin: 4%;
 }
 
 .minitext {
@@ -108,16 +118,16 @@ img {
 }
 
 .iconA {
-	width:40%;
+	width:60%;
 	margin-left:0px;
 }
 
 .iconB {
-	width:49%;
+	width:60%;
 }
 
 .iconC {
-	width: 40%;
+	width: 60%;
 }
 
 .iconD {
