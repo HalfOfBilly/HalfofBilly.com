@@ -81,6 +81,12 @@ a {
 	width: 45%;
 }
 
+.Reservationicon {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+}
 @media all and (min-width:0px) and (max-width: 1000px) {
 p {
 	font-family: verdana;
@@ -132,5 +138,12 @@ img {
 
 .iconD {
 	width: 90%;
+}
+
+.Reservationicon {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
 }
 }
