@@ -61,3 +61,19 @@ a {
 	color: #f47e70;
 	text-align: center;
 }
+
+@media all and (min-width:0px) and (max-width: 1000px) {
+p {
+	font-family: verdana;
+	font-size: 200%;
+	color: #ffedd1;
+	text-align: center;
+}
+
+.banner {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
