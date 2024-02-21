@@ -62,6 +62,23 @@ a {
 	text-align: center;
 }
 
+.iconA {
+	width:20%;
+	margin-left:0px;
+}
+
+.iconB {
+	width:30%;
+}
+
+.iconC {
+	width: 20%;
+}
+
+.iconD {
+	width: 60%;
+}
+
 @media all and (min-width:0px) and (max-width: 1000px) {
 p {
 	font-family: verdana;
@@ -70,10 +87,40 @@ p {
 	text-align: center;
 }
 
+img {
+	
+}
+
+.minitext {
+	font-family: verdana;
+	font-size: 400%;
+	color: #ffedd1;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .banner {
 	width: 80%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.iconA {
+	width:40%;
+	margin-left:0px;
+}
+
+.iconB {
+	width:49%;
+}
+
+.iconC {
+	width: 40%;
+}
+
+.iconD {
+	width: 90%;
 }
 }
