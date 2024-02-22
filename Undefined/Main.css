@@ -28,24 +28,11 @@ a {
 	margin: 2%;
 }
 
-.center {
+.Center {
 	text-align: center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;	
-}
-
-.minitext {
-	font-family: verdana;
-	font-size: 150%;
-	color: #ffedd1;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.Center {
-	display: inline-block;
 }
 
 .landscape {
@@ -92,8 +79,18 @@ a {
 	display: inline-block;
 	width:30%;
 	vertical-align:top;
+	margin-left: auto;
+	margin-right:auto;
 }
 
+.minitext {
+	font-family: verdana;
+	font-size: 150%;
+	color: #ffedd1;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 
 @media all and (min-width:0px) and (max-width: 1000px) {
 p {
@@ -113,15 +110,6 @@ img {
 
 .gaptwo {
 	margin: 4%;
-}
-
-.minitext {
-	font-family: verdana;
-	font-size: 400%;
-	color: #ffedd1;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
 }
 
 .banner {
@@ -155,15 +143,22 @@ img {
 	width:80%;
 }
 
+.minitext {
+	font-family: verdana;
+	font-size: 400%;
+	color: #ffedd1;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .miniicons {
-	display: block;
-	width:25%;
-	vertical-align:top;
+	width:45%;
 }
 
 .Center {
 	display: inline-block;
-	width:25%;
+	width:40%;
 	vertical-align:top;
 }
 
