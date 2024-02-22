@@ -157,13 +157,18 @@ img {
 
 .miniicons {
 	display: block;
-	width:60%;
+	width:80%;
 	vertical-align:top;
+	margin: 1%;
 }
 
 .Center {
 	display: block;
-	width:60%;
+	width:80%;
 	vertical-align:top;
+}
+
+.IconRowB {
+	display: inline-block;
 }
 }
