@@ -156,14 +156,14 @@ img {
 }
 
 .miniicons {
-	display: inline-block;
-	width:50%;
+	display: block;
+	width:60%;
 	vertical-align:top;
 }
 
 .Center {
-	display: inline-block;
-	width:50%;
+	display: block;
+	width:60%;
 	vertical-align:top;
 }
 }
