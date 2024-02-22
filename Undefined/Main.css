@@ -154,4 +154,11 @@ img {
 	margin-right:auto;
 	width:80%;
 }
+
+.Center {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
 }
