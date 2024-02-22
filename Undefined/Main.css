@@ -146,6 +146,7 @@ img {
 .minitext {
 	font-family: verdana;
 	font-size: 400%;
+	width: 100%;
 	color: #ffedd1;
 	margin-left: auto;
 	margin-right: auto;
@@ -153,12 +154,12 @@ img {
 }
 
 .miniicons {
-	width:45%;
+	width:100%;
 }
 
 .Center {
 	display: inline-block;
-	width:40%;
+	width:45%;
 	vertical-align:top;
 }
 
