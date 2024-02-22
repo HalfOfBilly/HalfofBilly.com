@@ -155,10 +155,15 @@ img {
 	width:80%;
 }
 
+.miniicons {
+	display: inline-block;
+	width:50%;
+	vertical-align:top;
+}
+
 .Center {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	width:80%;
+	display: inline-block;
+	width:50%;
+	vertical-align:top;
 }
 }
