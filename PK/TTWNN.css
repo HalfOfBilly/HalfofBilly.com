@@ -1,0 +1,142 @@
+body {
+	background-color: #2f3030;
+}
+
+h1 {
+	font-family: verdana;
+	font-size: 160%;
+	border-top: 4px solid #d1d1d1;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #dedfe0;
+}
+
+a {
+	color: #28adc1;
+}
+
+.intro{
+	width: 80%;
+	font-family: verdana;
+	font-size: 90%;
+	color: #dedfe0;
+	text-align: centre;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.expl {
+	width: 60%;
+	font-family: verdana;
+	word-wrap: break-word;
+	font-size: 80%;
+	color: #dedfe0;
+	text-align: center;
+}
+
+.asset {
+	width: 60%;
+	text-align: center;
+}
+
+.expll {
+	width: 60%;
+	font-family: verdana;
+	word-wrap: break-word;
+	font-size: 120%;
+	color: #dedfe0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.assett {
+	width: 100%;
+	text-align: center;
+}
+
+
+.group {
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+}
+
+.groupp {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5%;
+}
+
+.intext {
+	width: 60%;
+	font-family: verdana;
+	word-wrap: break-word;
+	font-size: 100%;
+	text-align: center;
+}
+
+.imgdex {
+	width:80%
+}
+
+.index {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 0px;
+	width: 15%;
+}
+
+.note{
+	font-family; verdana;
+	font-size: 60%;
+	color: #dedfe0;
+	text-align: left;
+}
+
+.banner {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subbanner {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.comingsoon {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dis {
+	font-family: verdana;
+	font-size: 100%;
+	color: #dedfe0;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dlink {
+	font-family: verdana;
+	font-size: 120%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.eee {
+	font-family: verdana;
+}
