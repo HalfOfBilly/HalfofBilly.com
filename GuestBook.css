@@ -12,6 +12,38 @@ h2 {
 	text-align: left;
 }
 
+.Center {
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+
+.nav {
+	display: inline-block;
+	width: 20%;
+}
+
+.banner {
+	width: 79%;
+	display: inline-block;
+	margin-left: 0;
+	margin-right: auto;
+	vertical-align: top;
+}
+
+.subbanner {
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subsubbanner {
+	width: 30%;
+	display: block;
+
+}
+
 h3 {
   display: none;
 }
@@ -26,6 +58,14 @@ h3 {
 
 .home-desc {
 	visibility: hidden;
+}
+
+h1 {
+	border-top: 4px solid #d1d1d1;
+	font-family: verdana;
+	color: #d1d1d1;
+	text-align: center;
+	margin: 1%;
 }
 
 a {
