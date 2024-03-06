@@ -7,7 +7,9 @@ h1 {
 	font-family: verdana;
 	color: #d1d1d1;
 	text-align: center;
+	margin: 1%;
 }
+
 
 p {
 	font-family: verdana;
@@ -20,11 +22,16 @@ a {
 	color: #28adc1;
 }
 
+.nav {
+	display: inline-block;
+	width: 20%;
+}
+
 .banner {
-	width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	width: 79%;
+	display: inline-block;
+	margin-left: 0;
+	vertical-align: top;
 }
 
 .subbanner {
@@ -60,6 +67,12 @@ a {
 	vertical-align: middle;
 }
 
+.Center {
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+
 .minitext {
 	font-family: verdana;
 	font-size: 90%;
@@ -68,7 +81,7 @@ a {
 }
 
 .profile {
-	width: 25%;
+	width: 29%;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -81,7 +94,7 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 	word-wrap: break-word;
-	width: 50%; 
+	width: 70%; 
 }
 
 .Center {
