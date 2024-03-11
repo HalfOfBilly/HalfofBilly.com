@@ -129,6 +129,8 @@ a {
 	width: 30%;
 	color: #dedfe0;
 	display: inline-block;
+	margin-left: 12%;
+	margin-right: auto;
 	vertical-align: middle;
 	word-wrap: break-word;
 }
