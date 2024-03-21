@@ -148,3 +148,117 @@ a {
 commentBox('5764174919499776-proj', {
     textColor: '#fff'
 });
+
+@media all and (min-width:0px) and (max-width: 1000px) {
+.mobilenav {
+	display: inline-block;
+	width: 33%;
+}
+
+.upto {
+	font-family: verdana;
+	font-size: 100%;
+	width: 40%;
+	color: #dedfe0;
+	display: inline-block;
+	margin-left: 6%;
+	margin-right: auto;
+	vertical-align: middle;
+	word-wrap: break-word;
+}
+
+.banner {
+	width: 100%;
+	display: none;
+	margin-left: 0;
+	margin-right: auto;
+	vertical-align: top;
+}
+
+.subbanner {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subsubbanner {
+	width: 30%;
+	display: block;
+
+}
+
+.nav {
+	display: none;
+}
+
+.minitext {
+	font-family: verdana;
+	font-size: 180%;
+	color: #dedfe0;
+	text-align: center;
+}
+
+
+.profile {
+	width: 18%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.about_me {
+	font-family: verdana;
+	font-size: 120%;
+	color: #dedfe0;
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+	word-wrap: break-word;
+	width: 80%; 
+}
+
+.Center {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+
+.comingsoon {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom {
+	font-family: verdana;
+	font-size: 160%;
+	color: #dedfe0;
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 160%;
+	width: 100%;
+	color: #dedfe0;
+	text-align: left;
+}
+
+.subsubbannerr {
+	width: 60%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.banicon {
+	width: 12%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.Counter
+{
+	display: none;
+}
+}
