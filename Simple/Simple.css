@@ -148,9 +148,6 @@ a {
 .mobilenav {
 	display: none;
 }
-commentBox('5764174919499776-proj', {
-    textColor: '#fff'
-});
 
 @media all and (min-width:0px) and (max-width: 1000px) {
 .mobilenav {
