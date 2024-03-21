@@ -145,6 +145,9 @@ a {
 	word-wrap: break-word;
 }
 
+.mobilenav {
+	display: none;
+}
 commentBox('5764174919499776-proj', {
     textColor: '#fff'
 });
