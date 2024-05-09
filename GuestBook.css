@@ -110,3 +110,7 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 }
+
+.img {
+	width: 50%;
+}
